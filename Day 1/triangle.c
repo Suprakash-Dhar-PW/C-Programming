@@ -10,16 +10,16 @@ int main(){
     scanf("%d",&b);
     printf("Enter the third side : ");
     scanf("%d",&c);
-    if((a==b)&&(a==c)){
+    if((a==b)&&(b==c)&&(a==c)){
         printf("Equalatoral Triangle");
     }
-    else if((a==b)&&(b!=c)){
+    else if((a==b)&&(b!=c)&&(a!=c)){
         printf("Isoceles Triangle");
     }
-    else if((a!=b)&&(b==c)){
+    else if((a!=b)&&(b!=c)&&(a==c)){
         printf("Isoceles Triangle");
     }
-    else if((a!=b)&&(b!=c)){
+    else if((a!=b)&&(b!=c)&&(a!=c)){
         printf("Scalene Triangle");
     }
     else{
