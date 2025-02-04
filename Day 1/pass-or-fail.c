@@ -9,6 +9,7 @@ int main(){
     else if((0.0f<=num)&&(num<40.0)){
         printf("Student Failed");
     }
+  
     else{
         printf("Error");
     }
